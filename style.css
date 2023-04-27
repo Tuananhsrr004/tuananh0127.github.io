@@ -1,0 +1,85 @@
+*{box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;}
+    .body{
+        background-color: rgba(220, 184, 126, 0.782);
+    }
+.banner{
+    background-color: rgb(196, 137, 41);
+    border: 1px rgb(187, 180, 80) solid;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    width: 98%;
+    margin: 0px auto;
+}
+.name_banner{font-size: 50px;
+    
+color: rgb(255, 255, 255);
+font-weight: bold;
+width: 98%;
+}
+
+.h1{
+    color: white;
+    background-color: rgb(170, 114, 94);
+    border: 1px orange;
+    width: 750px;
+    height: 50px;
+    margin: 0px auto;
+    padding: 15px 10px 15px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.menu{
+    margin-left: 15px;
+    height: 40%;
+    position: fixed;
+    left: 0;
+    top: 40;
+    width: 250px;
+    background-color: #7c0e2e;
+    color: #ccc;
+}
+.root li{
+    border-bottom: 1px solid rgba(96, 11, 11, 0.1);
+    transition: 0.3s;
+    /*text-align: center;*/
+    padding-left: 25px;
+}
+.root li:hover{
+    padding-left: 35px;
+    background-color: #967c47;
+}
+.root li a{
+    display: block;
+    color: #fff;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/* banner-slider */
+.banner-slider{
+    width: 325px; height: 434px;
+    background-color:  rgb(228, 228, 228);
+    margin: 20px 0px 30px 1200px;
+    font-size: large;
+    background: none;
+}
+footer{
+    background-color:rgb(171, 141, 90);
+    text-align:center;
+    padding:25px;
+    font-size:18px;
+}
+.parag{
+
+    margin: -460px 350px 30px 300px;
+    width: 650px;
+    height: 400px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+
+    border-radius: 6px;
+}
